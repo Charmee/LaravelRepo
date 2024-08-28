@@ -81,4 +81,4 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ![Project Screenshot](Screenshot_2024-08-28_090321_POST_title.png)
 
-
+add is_admin =1 in the column is_admin for the users table.
