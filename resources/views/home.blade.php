@@ -44,16 +44,14 @@
                                     <p>Payment has been completed successfully!</p>
                                 @else
                                 <button type="button" class="btn btn-primary m-2" 
-                                   onClick="{{ route('addInstmojoPayment') }}"> add instamoho payment </button>
+                                   onClick="window.location.href='{{ route('addInstmojoPayment') }}'"> pay now  </button>
 
                                 @endif
 
-                                <button type="button" class="btn btn-primary m-2" 
-                                   onClick="{{ route('addInstmojoPayment') }}"> add payment payment </button>
 
 
                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#demoModal">
-                                    Launch demo modal
+                                    view course
                                     </button>
 
                                     <!-- Modal -->
@@ -81,7 +79,7 @@
 
                                             
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
                                         </div>
                                         </div>
                                     </div>
