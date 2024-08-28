@@ -64,6 +64,7 @@
                     
                     </form> 
                     @endif
+                    <a href="{{ url('/home')}} ">Home </a>
 
 </div>
             </div>
